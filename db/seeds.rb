@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Restaurant.create(name: "laflore", address: "7 Boundary St, France E2 7JE", phone_number: "+231678549", category: "french")
+Restaurant.create(name: "amore", address: "7 Boundary St, Portugal E2 7JE", phone_number: "+231678549", category: "chinese")
+Restaurant.create(name: "sabore", address: "7 Boundary St, Spain E2 7JE", phone_number: "+231678549", category: "italian")
+Restaurant.create(name: "delicius", address: "7 Boundary St, USA E2 7JE", phone_number: "+231678549", category: "japanese")
+Restaurant.create(name: "carioca", address: "7 Boundary St, Brazil E2 7JE", phone_number: "+231678549", category: "belgian")
+
+# Aqui é onde faco teste dos dados
